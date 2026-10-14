@@ -19,6 +19,7 @@ VALUES
 ('Charlie','Finance'),
 ('Dexter','Law'),
 ('Neagely','Security');
+('Jack Reacher','Retired Military Police')
 
 ALTER TABLE employees DROP COLUMN Emp_id;
 ALTER TABLE employees ADD COLUMN Emp_id INT AUTO_INCREMENT PRIMARY KEY FIRST;
